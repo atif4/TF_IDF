@@ -1,3 +1,6 @@
+#import necessary modules
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
 def get_lassifier():
     #create object of the lassifier
     neigh = KNeighborsClassifier(n_neighbors=3)
